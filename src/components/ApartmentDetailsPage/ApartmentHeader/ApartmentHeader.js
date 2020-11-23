@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../HomePage/Navbar/Navbar';
-import './ApartmentHeader.css';
+import './ApartmentHeader.scss';
 
 const ApartmentHeader = () => {
 

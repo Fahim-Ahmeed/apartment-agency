@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 // import FormHelperText from '@material-ui/core/FormHelperText';
 // import FormControl from '@material-ui/core/FormControl';
 // import Select from '@material-ui/core/Select';
-import'./BookingSingle.css';
+import'./BookingSingle.scss';
 const useStyles = makeStyles((theme) => ({
     formControl: {
         margin: theme.spacing(1),

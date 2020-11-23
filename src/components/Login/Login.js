@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import Navbar from '../HomePage/Navbar/Navbar';
-import './Login.css';
+import './Login.scss';
 import firebase from "firebase/app";
 import { useHistory, useLocation } from 'react-router-dom';
 import fbLogo from '../../images/fb.png';
-import { firebaseConfig } from './firebase.config';
+// import { firebaseConfig } from './firebase.config';
 // import * as firebase from "firebase/app";
 import "firebase/auth";
+import firebaseConfig from './firebase.config';
+firebase.initializeApp(firebaseConfig);
 
-if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-}
 // firebase.initializeApp(firebaseConfig);
 const Login = () => {
     const googleProvider = new firebase.auth.GoogleAuthProvider();

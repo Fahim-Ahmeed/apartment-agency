@@ -1,4 +1,4 @@
-import './SideBar.css';
+import './SideBar.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faHouseUser, faCommentAlt, faPlus, faUserPlus, faSignInAlt } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink, useHistory } from 'react-router-dom';
